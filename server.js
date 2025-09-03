@@ -14,7 +14,7 @@ app.use("/api", signUpRoute);
 mongoose
   .connect(connection_string)
   .then(() => {
-    console.log("Successfully connected to the Database OK");
+    console.log("Successfully connected to the Database O");
   })
   .catch((error) => {
     console.log("Failed to connect to the Database", error);
